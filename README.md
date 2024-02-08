@@ -2,9 +2,11 @@
 -Learning responsive web design and working with flex
 
 ## Team Members
-- Team Members
-- Safaa Tazin
-- Fahmi Sardar
+Team Members
+|Names|
+|:------------:|
+|Safaa Tazin|
+|Fahmi Sardar|
 
 ## Screenshots
 ### Exercise B
