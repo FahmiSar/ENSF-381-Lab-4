@@ -48,46 +48,46 @@ Description : Responsive Layouts.
         .footer { position: fixed; bottom: 0; width: 100%;}
         .news-item { padding: 10px; }
 		
-		.row { 
-			/*I need some CSS codes.*/		
-			display: inline-block;
-			margin: 0;
-			padding: 0;
+        .row { 
+            /*I need some CSS codes.*/        
+            margin: 0;
+            padding: 0;
 			box-sizing: border-box;
-		}
+        }
 
-		.large, .medium, .small {
-			/*I need some CSS codes.*/
-			display: inline-block;
-			vertical-align: top;
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;			
-		}
-		
-		.gap {
-			/*I need some CSS codes.*/
-			margin-bottom: 50px;
-		}
+        .large, .medium, .small {
+            /*I need some CSS codes.*/
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            padding: 0;   
+			box-sizing: border-box;         
+        }
+        
+        .gap {
+            /*I need some CSS codes.*/
+            margin-bottom: 50px;
+        }
 
-		/*for when size of display is > 769*/
-		@media screen and (min-width: 769px) {			
-			.large { 
-				/*I need some CSS codes.*/
-				width: 100%;
-				
-			}
-			.medium { 
-				/*I need some CSS codes.*/
-				width: 70%;
+        /*for when size of display is > 769*/
+        @media screen and (min-width: 769px) {            
+            .large { 
+                /*I need some CSS codes.*/
+                width: 100%;
+                
+            }
+            .medium { 
+                /*I need some CSS codes.*/
+                width: 70%;
+				float: right
+            }
 
-			}
-			.small { 
-				/*I need some CSS codes.*/
-				width: 29%;
-
-			 }
-		}
+            .small { 
+                /*I need some CSS codes.*/
+                width: 30%;
+				float: left;
+             }
+        }
 
         @media screen and (max-width: 768px) {
             /*I need some CSS codes.*/
@@ -96,9 +96,18 @@ Description : Responsive Layouts.
 			}
 			.medium{
 				width: 60%;
+				float: right;
 			}
 			.small{
 				width: 40%;
+				float: left;
+			}
+			.menu{
+				float: center;
+				width: 100%;
+			}
+			.main{
+				margin-left: 0;
 			}
 
         }
@@ -111,6 +120,15 @@ Description : Responsive Layouts.
 
 			.large, .medium, .small{
 				width: 100%;
+			}
+
+			.menu{
+				float: center;
+				width: 100%;
+			}
+
+			.main{
+				margin-left: 0;
 			}
 
 			h1{
